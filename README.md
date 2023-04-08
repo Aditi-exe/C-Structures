@@ -16,6 +16,9 @@ struct Person {
 };
 ```
 
+In the example above, a structure named Person is defined with three members: name, age, and height. The name member is an array of characters with a maximum size of 50, representing the name of the person. The age member is an integer representing the age of the person, and the height member is a floating-point number representing the height of the person.
+
+
 ## Operations supported by Structures
 
 1. Declaration: Structures are declared using a structure definition, which specifies the data members and their types. For example:
@@ -93,8 +96,6 @@ points[2].x = 5;
 points[2].y = 6;
 ```
 
-
-In the example above, a structure named Person is defined with three members: name, age, and height. The name member is an array of characters with a maximum size of 50, representing the name of the person. The age member is an integer representing the age of the person, and the height member is a floating-point number representing the height of the person.
 
 Structures can also be defined within structures to create nested or hierarchical data structures. Structures are commonly used in C for organizing and storing data in a structured manner, such as representing complex objects, data records, or configurations.
 
